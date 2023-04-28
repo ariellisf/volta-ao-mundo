@@ -1,0 +1,70 @@
+
+body{
+    background-color: azure;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+}
+
+header{
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 40px;
+    color: turquoise;
+    
+}
+
+.around{
+    display: flex;
+    justify-content: space-evenly;
+    height: 300px;
+    
+}
+
+.around-texts{
+    align-self: center;
+    padding: 1rem;
+    border: 3px dashed turquoise;
+    width: 30%;
+}
+
+.around-title, .about-title{
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.around-images{
+    width: 35%;
+}
+
+.around-image{
+    border-radius: 2rem;
+    align-self: flex-end;
+}
+
+.image-1{
+    height: 300px
+}
+
+.image-2{
+    height: 250px;
+}
+
+.image-3{
+    height: 200px;
+}
+
+.about{
+    display: flex;
+    justify-content: space-evenly;
+    height: 250px;
+    margin: 8rem 0;
+}
+
+.about-image{
+    border-radius: 2rem;
+}
+
+.about-texts{
+    width: 30%;
+    padding: 1rem;
+    border: 3px dashed turquoise;
+}
