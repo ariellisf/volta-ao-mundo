@@ -5,15 +5,15 @@ body{
     text-align: center;
 }
 
-header{
-    font-family: 'Shadows Into Light', cursive;
-    font-size: 40px;
-    color: turquoise;
-    
+.content{
+    /* position: relative; */
+    width: 1300px;
+    margin: 0 auto;
 }
 
 .around{
     display: flex;
+    align-items: center;
     justify-content: space-evenly;
     height: 300px;
     
@@ -21,14 +21,15 @@ header{
 
 .around-texts{
     align-self: center;
-    padding: 1rem;
+    padding: 3rem;
     border: 3px dashed turquoise;
-    width: 30%;
+    width: 40%;
 }
 
 .around-title, .about-title{
     font-size: 30px;
     font-weight: 700;
+    margin: 1rem 0;
 }
 
 .around-images{
@@ -37,15 +38,14 @@ header{
 
 .around-image{
     border-radius: 2rem;
-    align-self: flex-end;
 }
 
 .image-1{
-    height: 300px
+    height: 250px
 }
 
 .image-2{
-    height: 250px;
+    height: 230px;
 }
 
 .image-3{
@@ -65,6 +65,10 @@ header{
 
 .about-texts{
     width: 30%;
-    padding: 1rem;
+    padding: 1rem 4rem;
     border: 3px dashed turquoise;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }

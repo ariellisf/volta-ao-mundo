@@ -1,0 +1,111 @@
+body{
+    background-color: azure;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+}
+
+.content{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    height: 300px;
+}
+
+/* header */
+
+.header-title{
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 40px;
+    color: turquoise;
+}
+
+.header-item{
+    display: inline;
+    margin-left: 1rem;
+}
+
+.header-link{
+    color: turquoise;
+    font-size: 22px;
+    font-weight: 700;
+    text-decoration:none;
+    text-transform: uppercase;  
+}
+
+.header-link:hover{
+    color: #278077;
+    text-decoration: underline;
+}
+
+/* main */
+
+.form-title{
+    font-size: 30px;
+    font-weight: 700;
+    margin: 1rem 0; 
+
+    color: #278077;
+}
+
+.form{
+    margin: 2rem 10rem;
+    display: flex;
+    flex-direction: column;
+
+    align-items: flex-start;
+}
+
+.form-label-text, .form-radio-title, .form-label-radio{
+    font-size: 20px;
+    margin-bottom: 1rem;
+    
+}
+
+.form-text, .form-message{
+    margin-bottom: 1rem;
+
+    padding: 0.8rem;
+    width: 50%;
+}
+
+.form-radio{
+    display: flex;
+    flex-direction: column;
+
+    align-items: flex-start;
+}
+
+.form-check{
+    margin: 1.5rem 0;
+}
+
+.form-buttom{
+    width: 40%;
+
+    padding: 1rem 0;
+
+    background-color:#278077;
+
+    font-weight: bold;
+    font-size: 18px;
+    color: white;
+
+    border-radius: 1rem;
+
+    transition: 1s all;
+
+    cursor: pointer;
+}
+
+.form-buttom:hover{
+    background-color: #055950;
+
+    transform: scale(1.05);
+    
+}
+/* rodape */
+
+.footer-image{
+    width: 50px;
+}
