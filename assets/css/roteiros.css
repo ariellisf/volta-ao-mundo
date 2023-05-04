@@ -4,15 +4,14 @@ body{
     text-align: center;
 }
 
+/* header */
+
 .header-content{
     display: flex;
     justify-content: space-around;
     align-items: center;
-
-    height: 300px;
+    margin-top: 1rem;
 }
-
-/* header */
 
 .header-title{
     font-family: 'Shadows Into Light', cursive;
@@ -92,4 +91,20 @@ body{
 
 .footer-image{
     width: 50px;
+}
+
+@media screen and (max-width:960px){
+    .header-content{
+        flex-direction: column;
+        margin-bottom: 1rem;
+    }
+
+    .itinerary-list{
+        flex-direction: column;
+    }
+
+    .itinerary-item{
+        margin: 1rem 0;
+        padding: 5rem;
+    }
 }

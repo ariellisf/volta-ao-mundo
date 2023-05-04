@@ -10,8 +10,7 @@ body{
     display: flex;
     justify-content: space-around;
     align-items: center;
-
-    height: 300px;
+    margin-top: 1rem;
 }
 
 .header-title{
@@ -44,8 +43,6 @@ body{
     display: flex;
     align-items: center;
     justify-content: space-evenly;
-    height: 300px;
-    
 }
 
 .around-texts{
@@ -83,18 +80,19 @@ body{
 
 .about{
     display: flex;
+    align-items: center;
     justify-content: space-evenly;
-    height: 250px;
     margin: 8rem 0;
 }
 
 .about-image{
     border-radius: 2rem;
+    height: 250px;
 }
 
 .about-texts{
     width: 30%;
-    padding: 1rem 4rem;
+    padding: 3rem;
     border: 3px dashed turquoise;
 
     display: flex;
@@ -106,4 +104,68 @@ body{
 
 .footer-image{
     width: 50px;
+}
+
+@media screen and (max-width:480px){
+    .header-content, .around, .about{
+        flex-direction: column;
+        margin-bottom: 1rem;
+    }
+
+    .around-images{
+        width: 0px;
+        display: flex;
+        align-items: flex-end;
+        justify-content: center;
+        margin: 1rem;
+    }
+
+    .around-image{
+        margin: 0.5rem;
+    }
+
+    .image-3{
+        display: none;
+    }
+
+    .about{
+        flex-direction: column-reverse;
+        margin: 2rem 0;
+    }
+
+    .about-texts{
+        margin-bottom: 2rem;
+    }
+
+   
+
+}
+
+@media screen and (max-width:1260px){
+    .header-content, .around, .about{
+        flex-direction: column;
+        margin-bottom: 1rem;
+    }
+
+    .around-images{
+        width: 0px;
+        display: flex;
+        align-items: flex-end;
+        justify-content: center;
+        margin: 1rem;
+    }
+
+    .around-image{
+        margin: 0.5rem;
+    }
+
+    .about{
+        flex-direction: column-reverse;
+        margin: 2rem 0;
+    }
+
+    .about-texts{
+        margin-bottom: 2rem;
+    }
+
 }
