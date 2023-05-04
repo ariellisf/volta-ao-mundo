@@ -1,15 +1,44 @@
-
 body{
     background-color: azure;
     font-family: 'Roboto', sans-serif;
     text-align: center;
 }
 
-.content{
-    /* position: relative; */
-    width: 1300px;
-    margin: 0 auto;
+/* header */
+
+.header-content{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    height: 300px;
 }
+
+.header-title{
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 40px;
+    color: turquoise;
+}
+
+.header-item{
+    display: inline;
+    margin-left: 1rem;
+}
+
+.header-link{
+    color: turquoise;
+    font-size: 22px;
+    font-weight: 700;
+    text-decoration:none;
+    text-transform: uppercase;  
+}
+
+.header-link:hover{
+    color: #278077;
+    text-decoration: underline;
+}
+
+/* main */
 
 .around{
     display: flex;
@@ -71,4 +100,10 @@ body{
     display: flex;
     flex-direction: column;
     justify-content: center;
+}
+
+/* rodape */
+
+.footer-image{
+    width: 50px;
 }
